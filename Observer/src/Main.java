@@ -12,7 +12,7 @@ public class Main {
         int stat = 0 ;
         String st ;
         Server abc = new ABcServer() ;
-        User premium = new PremiumUser(1,"Fabiha",abc) ;
+        User premium = new PremiumUser(1,"Jim Morrison",abc) ;
         User regular = new RegularUser(2,"Toriqe",abc) ;
         abc.notifyAllUsers();
 
